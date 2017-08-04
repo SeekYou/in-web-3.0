@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://cdn.bootcss.com/jquery/1.12.0/jquery.min.js"></script>
+</head>
+<body>
+	<script>
+		$(function(){
+			// $.get('http://fm.test.fang.com/bit/List.do', function(data){
+			// 	console.log(data);
+			// 	//Error No 'Access-Control-Allow-Origin' header is present on the requested resource.
+			// })
+			$.get('http://localhost:8077/api', function(data) {
+				console.log(data);
+			})
+		})
+	</script>
+</body>
+</html>
